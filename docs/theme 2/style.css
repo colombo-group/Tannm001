@@ -1,0 +1,411 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+@font-face {
+    font-family: 'Georgia Regular';
+    src: url(fonts/Georgia Regular font.ttf);
+}
+.container{
+	margin: auto;
+	width: 960px;
+	min-height: 1641px;
+	padding: 0px 20px;
+	background: #d0d0d0;
+}
+
+/* Header */
+header{
+	background: #ffffff;
+	width: 100%;
+	height: 130px;
+	float: left;
+	border-top: 10px solid #894aa3;
+	position: relative;
+}
+#logo{
+	display: block;
+	text-decoration: none;
+	width: 300px;
+	margin-top:40px;
+	margin-left: 30px;
+	float: left;
+}
+#logo>h1{
+	font-family: 'Georgia Regular';
+	font-size: 36px;
+	font-weight: normal;
+	text-transform: capitalize;
+	color:#b5b5b5;
+}
+#logo>p{
+	margin-top: 10px;
+	font-size: 12px;
+	font-family: 'Georgia Regular';
+	color: #666666;
+}
+#search{
+	width: 218px;
+	height: 30px;
+	position: relative;
+	background: #ebebea;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	top:0px;
+	right:-360px;
+	border: 0px;
+}
+#search-submit{
+	display: block;
+	position: absolute;
+	right: 55px;
+	top:4px;
+	border: 0px;
+	z-index: 100;
+	background: #ebebea;
+}
+#search-submit img{
+	width: 100%;
+}
+nav{
+	top:85px;
+	right: 30px;
+	border-radius: 10px;
+	width: 540px;
+	position: absolute;
+}
+.nav-ul{
+	width: 100%;
+	float: left;
+}
+.nav-ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0px 35px 0px 0px;
+}
+.nav-ul li:last-child{
+	padding: 0px;
+}
+.nav-ul a{
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Georgia Regular';
+	font-size: 13px;
+	color:#666666;
+}
+.nav-ul a:hover{
+	color:#000000;
+}
+/* end header */
+
+/* Shout */
+.shout{
+	border-top: 1px solid #e1e1e1;
+	background: #ebebea;
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+}
+.shout p{
+	line-height: 22px;
+	margin: auto;
+	width: 720px;
+	text-align: center;
+	font-family:'Georgia Regular';
+	font-size: 22px;
+	color: #333333; 
+}
+/* End Shout */
+/* Slider */
+.slider{
+	width: 100%;
+	float: left;
+}
+#silder{
+	width: 960px;
+	height: 380px;
+	background: #333333;
+	float: left;
+	position: relative;
+}
+#slide-caption{
+	background: #0f0f0f;
+	width: 450px;
+	height: 120px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+#previous-button{
+	position: absolute;
+	top:165px;
+	left:30px;
+}
+#next-button{
+	position: absolute;
+	top:165px;
+	right:30px;
+}
+#slide-button{
+	position: absolute;
+	bottom:30px;
+	left:30px;
+}
+#slide-caption h2{
+	margin-left: 15px;
+	margin-top: 22px;
+	font-size: 20px;
+	font-family: 'Georgia Regular';
+	text-transform: capitalize;
+	color:#a0a0a0;
+	font-weight: normal;
+}
+#slide-caption p{
+	margin-left: 15px;
+	margin-top: 30px;
+	font-size: 13px;
+	font-family: 'Georgia Regular';
+	color:#a0a0a0;
+}
+/* End Slider */
+
+/* service */
+
+.service-ul{
+	padding: 45px 30px;
+	background: #ffffff;
+	float: left;
+}
+.service-ul li{
+	list-style: none;
+	display: inline-block;
+	width: 300px;
+	float: left;
+}
+.service-ul article{
+	width: 100%;
+	float: left;
+}
+.service-thumb{
+	width: 48px;
+	float: left;
+}
+.service-content{
+	width: 232px;
+	float: left;
+	margin-left: 20px;
+}
+.service-content a{
+	text-decoration: none;
+	font-size: 20px;
+	color:#c4a5d1;
+}
+.service-content a:hover{
+	text-decoration: underline;
+}
+.service-content p{
+	margin-top:20px;
+	width: 90%;
+	text-align: left;
+	font-family: 'Georgia Regular';
+	font-size: 13px;
+	color: #979797;
+}
+.readmore{
+	text-align: right;
+	width: 90%;
+	float: left;
+	margin-top: 10px;
+}
+.readmore a{
+	text-decoration: none;
+	color: #874ca0;
+	font-size: 13px;
+}
+.readmore a:hover{
+	text-decoration: underline;
+}
+/* End service */
+
+/* team */
+.team-list{
+	border-top: 1px solid #e1e1e1;
+	background: #ebebea;
+	border-bottom: 1px solid #e1e1e1;
+	float: left;
+	padding: 50px 30px;
+}
+.team-player{
+	background: #ffffff;
+	width: 260px;
+	height: 300px;
+	margin-right: 30px;
+	float: left;
+	padding: 10px;
+}
+.team-player:last-child{
+	margin-right: 0px;
+}
+.player-avatar{
+	margin: auto;
+	max-width: 100%;
+}
+.player-bio{
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.player-bio a{
+	font-family: 'Georgia Regular';
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color:#c4a5d1;
+}
+
+.player-bio p{
+	margin-top: 20px;
+	font-family: 'Georgia Regular';
+	font-size: 13px;
+	font-weight: normal;
+	color: #979797;
+}
+/* end team */
+
+
+/* Footer */
+footer{
+	width: 960px;
+	float: left;
+	background: #ffffff;
+	padding: 0px 0px;
+}
+.footer-top{
+	background: #ffffff;
+
+	width: 900px;
+	float: left;
+	padding: 0px 30px;
+}
+.footer-title{
+	margin-top: 40px;
+	display: block;
+	margin-bottom: 34px;
+	float: left;
+	font-family: 'Georgia Regular';
+	font-size: 16px;
+	font-weight: normal;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.footer-title:hover{
+	text-decoration: underline;
+}
+
+.contact-detail{
+	width: 230px;
+	float: left;
+}
+.contact-detail p{
+	width: 90%;
+	float: left;
+	color: #cccccc;
+	font-size: 13px;
+	font-family: 'Georgia Regular';
+}
+.quick-link{
+	width: 230px;
+	float: left;
+}
+.quickLink-ul{
+	width: 90%;
+	float: left;
+}
+.quickLink-ul li{
+	list-style:none;
+	padding: 10px 0px;
+	border-bottom: 1px solid #ebebeb;
+}
+.quickLink-ul li:first-child{
+	padding-top: 0px;
+}
+.quickLink-ul a{
+	text-decoration: none;
+	font-family: 'Georgia Regular';
+	color:#cccccc;
+}
+.quickLink-ul a:hover{
+	text-decoration: underline;
+}
+.from-the-blog{
+	width: 230px;
+	float: left;
+}
+#from-the-blog-content{
+	width: 100%;
+	float: left;
+}
+.from-the-blog h3{
+	text-align: left;
+	float: left;
+	color: #cccccc;
+	font-size: 13px;
+	font-family: 'Georgia Regular';
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.from-the-blog p{
+	width: 90%;
+	float: left;
+	color: #cccccc;
+	font-size: 13px;
+	font-family: 'Georgia Regular';
+}
+
+.grab-letter{
+	width: 200px;
+	float: left;
+}
+.grab-letter input{
+	border:0px;
+	background: #e6e6e6;
+	width: 99%;
+	padding: 10px 5px;
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
+.grab-letter button{
+	padding: 10px 10px;
+	border-radius: 5px;
+	border:0px;
+	color: #874ca0;
+	background: #e6e6e6;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.copyright{
+	width: 900px;
+	float: left;
+	margin-top: 40px;
+	background: #444444;
+	padding: 25px 30px;
+}
+.copyright p{
+		font-size: 12px;
+		font-family: 'Georgia Regular';
+		color:#979797;
+	}
+	#copyright-left{
+		float: left;
+		width: 50%;
+	}
+	#copyright-right{
+		text-align: right;
+		float: right;
+		width: 50%;
+	}
+/* End footer */

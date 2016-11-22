@@ -1,0 +1,385 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+@font-face {
+    font-family: GeorgiaRegular;
+    src: url(./theme 1/fonts/GeorgiaRegularfont.ttf);
+}
+.container{
+	margin: auto;
+	width: 960px;
+}
+body{
+	background: #FFFFFF;
+	padding: 0px 20px;
+	width: 1000px;
+	margin: auto;
+}
+
+/* Header */
+header{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	border-bottom: 1px solid #e2e2e2;
+}
+#logo{
+	display: block;
+	text-decoration: none;
+	width: 200px;
+	height: 70px;
+	float: left;
+}
+#logo>h1{
+	font-family: GeorgiaRegular;
+	font-size: 32px;
+	font-weight: normal;
+	text-transform: capitalize;
+	color:#b5b5b5;
+}
+#logo>p{
+	margin-top: 10px;
+	font-size: 12px;
+	 font-family: GeorgiaRegular;
+	color: #666666;
+}
+nav{
+	border-radius: 10px;
+	padding: 23px 20px;
+	background: #e2494b;
+	float: right;
+}
+.nav-ul{
+	width: 100%;
+	float: left;
+}
+.nav-ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0px 40px;
+}
+.nav-ul li:first-child{
+	padding: 0px;
+}
+.nav-ul li:last-child{
+	padding: 0px;
+}
+.nav-ul a{
+	text-align: center;
+	text-decoration: none;
+	 font-family: GeorgiaRegular;
+	font-size: 13px;
+	color:#FFFFFF;
+}
+.nav-ul a:hover{
+	color:#ee9395;
+}
+/* end header */
+
+/* Shout */
+.shout{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.shout p{
+	line-height: 25px;
+	margin: auto;
+	width: 720px;
+	text-align: center;
+	 font-family: GeorgiaRegular;
+	font-size: 22px;
+	color: #888888;
+	font-style: italic;
+	 
+}
+/* End Shout */
+/* Slider */
+.slider{
+	width: 100%;
+	float: left;
+	margin-top: 54px;
+}
+#silder{
+	width: 960px;
+	height: 350px;
+	background: #353535;
+	margin: auto;
+}
+.slider img{
+	margin-top: 15px;
+	margin-left:465px;
+}
+/* End Slider */
+
+/* service */
+.section{
+	border-top:1px solid #e2e2e2;
+	width: 100%;
+	float: left;
+	margin-top: 60px;
+	padding-top: 50px;
+	position: relative;
+}
+.section-name{
+	padding: 5px 20px;
+	background: #e2494b;
+	position: absolute;
+	top:-14px;
+	left:395px;
+	text-align: center;
+	border-radius: 5px;
+	border:0px;
+}
+.section-name h2{
+	color:#ffffff;
+	 font-family: GeorgiaRegular;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.service-ul{
+	width: 100%;
+	float: left;
+}
+.service-ul li{
+	list-style: none;
+	display: inline-block;
+	width: 320px;
+	float: left;
+}
+.service-ul article{
+	width: 100%;
+	float: left;
+}
+.service-title{
+	width: 100%;
+	float: left;
+}
+.service-title img{
+	max-width: 100%;
+	float: left;
+}
+.service-title a{
+	margin-top: 4px;
+	float: left;
+	margin-left: 20px;
+	 font-family: GeorgiaRegular;
+	font-size: 18px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+}
+.service-title a:hover{
+	text-decoration: underline;
+}
+.service-content{
+	width: 90%;
+	float: left;
+	margin-top: 10px;
+}
+.service-content p{
+	text-align: left;
+	 font-family: GeorgiaRegular;
+	font-size: 13px;
+	color: #979797;
+}
+.readmore{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+.readmore a{
+	text-decoration: none;
+	color: red;
+	font-size: 13px;
+}
+.readmore a:hover{
+	text-decoration: underline;
+}
+/* End service */
+
+/* team */
+.team-list{
+	width: 100%;
+	float: left;
+}
+.team-player{
+	width: 176px;
+	margin-right: 20px;
+	float: left;
+}
+.team-player:last-child{
+	margin-right: 0px;
+}
+.player-avatar{
+	max-width: 100%;
+	float: left;
+}
+.player-bio{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+
+.player-bio label{
+	 font-family: GeorgiaRegular;
+	font-size: 13px;
+	font-weight: bold;
+	color: #979797;
+}
+.player-bio span{
+	 font-family: GeorgiaRegular;
+	font-size: 13px;
+	font-weight: normal;
+	color: #979797;
+}
+
+.player-bio p{
+ font-family: GeorgiaRegular;
+	font-size: 13px;
+	font-weight: normal;
+	color: #979797;
+}
+/* end team */
+
+/* Last work */
+.work-list{
+	margin-right: 30px;
+	float: left;
+}
+.work-list:last-child{
+	margin-right: 0px;
+}
+/* end lasr work */
+
+/* Footer */
+footer{
+	width: 100%;
+	margin-top:50px;
+	padding: 40px 0px 20px 0px;
+	float: left;
+	background: #e2e2e2;
+}
+
+.footer-title{
+	display: block;
+	margin-bottom: 40px;
+	float: left;
+	 font-family: GeorgiaRegular;
+	font-size: 16px;
+	font-weight: normal;
+	color: black;
+	text-decoration: none;
+}
+.footer-title:hover{
+	text-decoration: underline;
+}
+.lastest-blog{
+	width: 450px;
+	float: left;
+}
+
+.blog{
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	}
+.blog-thumb{
+	float: left;
+	width: 95px;
+}
+.blog-bio{
+	width: 350px;
+	float: right;
+}
+	.blog-bio a{
+		text-decoration: none;
+		font-size:13px;
+		color:red;
+	}
+	.blog-bio a:hover{
+		text-decoration: underline;
+	}
+	.blog-bio p{
+		margin-top:25px;
+		float: left;
+		font-size: 13px;
+		color:#979797;
+	}
+	.contact-us{
+		width: 270px;
+		float: left;
+	}
+	.contact-us form{
+		width: 100%;
+		margin-top: 0px;
+	}
+	.contact-us input{
+		margin-bottom: 12px;
+		width: 90%;
+		float: left;
+		padding:10px 10px;
+		border-radius: 6px;
+		border:0px; 
+	}
+	.contact-us textarea{
+		padding: 10px 10px;
+		border-radius: 6px;
+		border:none;
+		width: 90%;
+		float: left;
+	}
+	.footer-content{
+		width: 100%;
+		float: left;
+		margin-top:35px;
+	}
+	.company-detail p{
+		font-size: 13px;
+		color:#979797;
+	}
+	.company-detail{
+		width: 240px;
+		float: left;
+	}
+	.company-detail span{
+		color:red;
+	}
+	.company-detail h3{
+		color:#979797;
+	}
+	footer button{
+		margin-top: 10px;
+		padding: 10px 10px;
+		font-size: 12px;
+		border-radius: 4px;
+		border: 0px;
+		color: white;
+		background: red;
+		letter-spacing: 0.5px
+	}
+
+	.copyright{
+		width: 100%;
+		float: left;
+		margin-top:50px;
+		border-top: 1px solid #ffffff;
+		padding-top: 20px;
+	}
+	.copyright p{
+		font-size: 12px;
+		font-family:GeorgiaRegular;
+		color:#979797;
+	}
+	#copyright-left{
+		float: left;
+		width: 50%;
+	}
+	#copyright-right{
+		text-align: right;
+		float: right;
+		width: 50%;
+	}
+/* End footer */
