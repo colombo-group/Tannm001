@@ -2,23 +2,24 @@
 	padding: 0px;
 	margin: 0px;
 }
-@font-face {
-    font-family: 'Georgia Regular';
-    src: url(fonts/Georgia Regular font.ttf);
+
+body{
+	font-family: Georgia serif;
+	background: #d0d0d0;
 }
 .container{
 	margin: auto;
 	width: 960px;
 	min-height: 1641px;
 	padding: 0px 20px;
-	background: #d0d0d0;
+	
 }
 
 /* Header */
 header{
 	background: #ffffff;
 	width: 100%;
-	height: 130px;
+	height: 125px;
 	float: left;
 	border-top: 10px solid #894aa3;
 	position: relative;
@@ -27,22 +28,23 @@ header{
 	display: block;
 	text-decoration: none;
 	width: 300px;
-	margin-top:40px;
+	margin-top:25px;
 	margin-left: 30px;
 	float: left;
 }
 #logo>h1{
-	font-family: 'Georgia Regular';
+	font-family:Georgia Regular;
 	font-size: 36px;
 	font-weight: normal;
 	text-transform: capitalize;
-	color:#b5b5b5;
+	color:#666666;
 }
 #logo>p{
-	margin-top: 10px;
-	font-size: 12px;
-	font-family: 'Georgia Regular';
-	color: #666666;
+	margin-top: 0px;
+	line-height: 20px;
+	font-size: 15px;
+	font-family: Georgia Regular;
+	color: #999999;
 }
 #search{
 	width: 218px;
@@ -68,7 +70,7 @@ header{
 	width: 100%;
 }
 nav{
-	top:85px;
+	top:80px;
 	right: 30px;
 	border-radius: 10px;
 	width: 540px;
@@ -89,7 +91,7 @@ nav{
 .nav-ul a{
 	text-align: center;
 	text-decoration: none;
-	font-family: 'Georgia Regular';
+	font-family: Georgia Regular;
 	font-size: 13px;
 	color:#666666;
 }
@@ -107,12 +109,15 @@ nav{
 	float: left;
 	padding: 25px 0px;
 }
-.shout p{
-	line-height: 22px;
-	margin: auto;
+.slogan{
 	width: 720px;
+	margin: auto;
 	text-align: center;
-	font-family:'Georgia Regular';
+}
+.shout i{
+	line-height: 26px;
+	margin: auto;
+	font-family:Georgia Regular;
 	font-size: 22px;
 	color: #333333; 
 }
@@ -132,7 +137,7 @@ nav{
 #slide-caption{
 	background: #0f0f0f;
 	width: 450px;
-	height: 120px;
+	height: 150px;
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
@@ -156,16 +161,18 @@ nav{
 	margin-left: 15px;
 	margin-top: 22px;
 	font-size: 20px;
-	font-family: 'Georgia Regular';
+	font-family: Georgia Regular;
 	text-transform: capitalize;
 	color:#a0a0a0;
 	font-weight: normal;
 }
 #slide-caption p{
+	line-height: 20px;
+
 	margin-left: 15px;
 	margin-top: 30px;
 	font-size: 13px;
-	font-family: 'Georgia Regular';
+	font-family: Georgia Regular;
 	color:#a0a0a0;
 }
 /* End Slider */
@@ -199,18 +206,19 @@ nav{
 .service-content a{
 	text-decoration: none;
 	font-size: 20px;
-	color:#c4a5d1;
+	color:#894aa3;
 }
 .service-content a:hover{
 	text-decoration: underline;
 }
 .service-content p{
+	line-height: 22px;
 	margin-top:20px;
 	width: 90%;
 	text-align: left;
-	font-family: 'Georgia Regular';
-	font-size: 13px;
-	color: #979797;
+	font-family: Georgia Regular;
+	font-size: 14px;
+	color: #666666;
 }
 .readmore{
 	text-align: right;
@@ -221,7 +229,7 @@ nav{
 .readmore a{
 	text-decoration: none;
 	color: #874ca0;
-	font-size: 13px;
+	font-size: 15px;
 }
 .readmore a:hover{
 	text-decoration: underline;
@@ -259,16 +267,19 @@ nav{
 }
 
 .player-bio a{
-	font-family: 'Georgia Regular';
+	font-family: Georgia Regular;
 	font-size: 16px;
 	font-weight: bold;
 	text-decoration: none;
-	color:#c4a5d1;
+	color:#a777ba;
+
 }
 
 .player-bio p{
+	text-align: center;
+	line-height: 20px;
 	margin-top: 20px;
-	font-family: 'Georgia Regular';
+	font-family: Georgia Regular;
 	font-size: 13px;
 	font-weight: normal;
 	color: #979797;
@@ -293,9 +304,9 @@ footer{
 .footer-title{
 	margin-top: 40px;
 	display: block;
-	margin-bottom: 34px;
+	margin-bottom: 25px;
 	float: left;
-	font-family: 'Georgia Regular';
+	font-family: Georgia Regular;
 	font-size: 16px;
 	font-weight: normal;
 	color: black;
@@ -311,11 +322,12 @@ footer{
 	float: left;
 }
 .contact-detail p{
+	line-height: 22px;
 	width: 90%;
 	float: left;
-	color: #cccccc;
+	color: #999999;
 	font-size: 13px;
-	font-family: 'Georgia Regular';
+	font-family: Georgia Regular;
 }
 .quick-link{
 	width: 230px;
@@ -328,15 +340,15 @@ footer{
 .quickLink-ul li{
 	list-style:none;
 	padding: 10px 0px;
-	border-bottom: 1px solid #ebebeb;
+	border-bottom: 1px solid #999999;
 }
 .quickLink-ul li:first-child{
 	padding-top: 0px;
 }
 .quickLink-ul a{
 	text-decoration: none;
-	font-family: 'Georgia Regular';
-	color:#cccccc;
+	font-family: Georgia Regular;
+	color:#999999;
 }
 .quickLink-ul a:hover{
 	text-decoration: underline;
@@ -352,18 +364,20 @@ footer{
 .from-the-blog h3{
 	text-align: left;
 	float: left;
-	color: #cccccc;
-	font-size: 13px;
-	font-family: 'Georgia Regular';
+	color: #999999;
+	font-size: 15px;
+	font-family: Georgia Regular;
 	font-weight: bold;
 	text-transform: capitalize;
 }
 .from-the-blog p{
+	margin-top: 4px;
 	width: 90%;
+	line-height: 22px;
 	float: left;
-	color: #cccccc;
+	color: #999999;
 	font-size: 13px;
-	font-family: 'Georgia Regular';
+	font-family: Georgia Regular;
 }
 
 .grab-letter{
@@ -395,8 +409,10 @@ footer{
 	padding: 25px 30px;
 }
 .copyright p{
-		font-size: 12px;
-		font-family: 'Georgia Regular';
+	line-height: 20px;
+
+		font-size: 15px;
+		font-family: Georgia Regular;
 		color:#979797;
 	}
 	#copyright-left{
