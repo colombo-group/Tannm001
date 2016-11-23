@@ -47,6 +47,7 @@ header{
 	color: #999999;
 }
 #search{
+	box-sizing: border-box;
 	width: 218px;
 	height: 30px;
 	position: relative;
@@ -66,8 +67,31 @@ header{
 	z-index: 100;
 	background: #ebebea;
 }
+#search:focus { 
+	outline: none;
+    border: 1px solid #ffffff;
+}
 #search-submit img{
 	width: 100%;
+}
+#slide-button{
+	width: 80px;
+	height: 16px;
+	margin: 15px auto;
+	
+}
+#slide-button span{
+	display: inline-block;	
+	width: 12px;
+	height: 12px;
+	background: #666666;
+	border-radius: 50%;
+	margin-right: 4px;
+}
+#slide-button span:last-child{
+	box-sizing: border-box;
+	background: #333333;
+	border: 2px solid #000000;
 }
 nav{
 	top:80px;
@@ -400,6 +424,9 @@ footer{
 	background: #e6e6e6;
 	text-transform: uppercase;
 	font-weight: bold;
+}
+.grab-letter button a{
+	text-decoration: none;
 }
 .copyright{
 	width: 900px;
