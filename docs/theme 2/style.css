@@ -52,6 +52,7 @@ header{
 	height: 30px;
 	position: relative;
 	background: #ebebea;
+	padding: 0px 22px 0px 10px; 
 	border-bottom-right-radius: 8px;
 	border-bottom-left-radius: 8px;
 	top:0px;
